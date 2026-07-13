@@ -2,7 +2,6 @@ const contactForm = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
 
 contactForm.addEventListener("submit", function (event) {
-
     event.preventDefault();
 
     try {
@@ -16,7 +15,7 @@ contactForm.addEventListener("submit", function (event) {
         }
 
         formMessage.textContent =
-            `Thank you, ${name}! Your message has been sent successfully.`;
+            'Thank you, ${name}! Your message has been sent successfully.';
 
         contactForm.reset();
 
