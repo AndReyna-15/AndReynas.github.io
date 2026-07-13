@@ -29,22 +29,21 @@
 
 <p>Interested in booking Two Queens for your next event? We'd love to hear from you!</p>
 
-<form>
+<form id="contactForm">
 
-<label for="name">Full Name</label><br>
-<input type="text" id="name" name="name"><br><br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
-<label for="email">Email Address</label><br>
-<input type="email" id="email" name="email"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-<label for="phone">Phone Number</label><br>
-<input type="tel" id="phone" name="phone"><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
 
-<label for="message">Message</label><br>
-<textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+    <button type="submit">Send Message</button>
 
-<button type="submit">Send Message</button>
-
+    <p id="formMessage"></p>
+    
 </form>
 
 </section>
