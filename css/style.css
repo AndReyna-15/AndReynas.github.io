@@ -121,6 +121,7 @@ footer {
     max-width:90%;
     display:block;
     margin:20px auto;
+    mix-blend-mode: multiply;
 }
 <p class="hero-subtitle">
     Handcrafted Coffee • Refreshing Drinks • Mobile Catering
