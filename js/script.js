@@ -15,7 +15,7 @@ contactForm.addEventListener("submit", function (event) {
         }
 
         formMessage.textContent =
-            `Thank you, ${name}! Your message has been sent successfully.`;
+            `Thank you, ${name}! Your message has been submitted successfully.`;
 
         contactForm.reset();
 
