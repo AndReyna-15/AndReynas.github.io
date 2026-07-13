@@ -113,3 +113,13 @@ footer {
         width: 80%;
     }
 }
+
+/* Hero Logo */
+
+.hero-logo {
+    display: block;
+    margin: 25px auto;
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+}
