@@ -129,6 +129,13 @@ footer {
 .hero-subtitle{
     text-align:center;
     color:#6F4E37;
+    font-size:1.1rem;
+    font-style:italic;
+    margin:15px 0 25px;
+}
+.hero-subtitle{
+    text-align:center;
+    color:#6F4E37;
     font-style:italic;
     margin-bottom:20px;
     font-size:1.1rem;
