@@ -147,3 +147,9 @@ h2,
 h3{
     font-family: 'Playfair Display', serif;
 }
+
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
