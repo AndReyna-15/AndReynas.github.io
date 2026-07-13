@@ -55,3 +55,22 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.cta-buttons {
+    margin-top: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #6F4E37;
+    color: white;
+    padding: 12px 22px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #8B5E3C;
+}
