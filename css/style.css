@@ -162,3 +162,19 @@ h3{
 .logo-link:focus {
   text-decoration: underline;
 }
+
+.featured-image {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: 400px;
+    object-fit: cover;
+    margin: 30px auto;
+    border-radius: 18px;
+}
+
+@media (max-width: 600px) {
+    .featured-image {
+        height: 280px;
+    }
+}
