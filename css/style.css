@@ -41,6 +41,21 @@ h1, h2 {
 
 header h1 {
     color: white;
+    text-decoratio: none;
+}
+
+header h1 a:hover {
+    color: #f7c6d9;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #f7c6d9;
 }
 
 img {
@@ -49,6 +64,16 @@ img {
     border-radius: 10px;
 }
 
+footer a {
+    color: #f7c6d9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+}
 footer {
     background-color: #5c4033;
     color: white;
@@ -113,8 +138,8 @@ footer {
         width: 80%;
     }
 }
+asi esta mira 
 
-/* Hero Logo */
 
 .hero-logo {
      width:330px;
