@@ -178,3 +178,34 @@ h3{
         height: 280px;
     }
 }
+
+.events-gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.event-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.event-gallery figure {
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+}
+
+.event-gallery img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+.event-gallery figcaption {
+    margin-top: 12px;
+    font-weight: 600;
+}
