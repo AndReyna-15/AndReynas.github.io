@@ -212,25 +212,15 @@ h3{
 .event-gallery {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    align-items: flex-start;
+    gap: 50px;
     flex-wrap: wrap;
-}
-
-.event-gallery figure {
-    width: 100%;
-    max-width: 420px;
-    margin: 0;
+    margin-top: 30px;
 }
 
 .event-gallery img {
-    width: 100%;
+    width: 260px;      /* Prueba 240px, 260px o 280px */
     height: auto;
-    display: block;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,.15);
-}
-
-.event-gallery figcaption {
-    margin-top: 12px;
-    font-weight: 600;
 }
