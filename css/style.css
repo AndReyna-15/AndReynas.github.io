@@ -205,33 +205,34 @@ h3{
 }
 
 
-.service-gallery{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
-    margin:40px 0;
+.service-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px 0;
 }
 
-.service-gallery figure{
-    width:340px;
-    margin:0;
-    text-align:center;
+.service-gallery figure {
+    width: 340px;
+    margin: 0;
+    text-align: center;
 }
 
-.service-gallery img{
-    width:100%;
-    height:420px;
-    object-fit:cover;
-    border-radius:16px;
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
+.service-gallery img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.service-gallery figcaption{
-    margin-top:15px;
-    font-weight:600;
+.service-gallery figcaption {
+    margin-top: 15px;
+    font-weight: 600;
 }
-
 
 .event-gallery{
     display:flex;
